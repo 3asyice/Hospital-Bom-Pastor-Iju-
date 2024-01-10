@@ -1,0 +1,80 @@
+body {
+  padding: 30px;
+  font-size: 12pt;
+  background-color: #000000;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fradioprogresso.com.br%2Fwp-content%2Fuploads%2F2020%2F08%2FWhatsApp-Image-2020-08-17-at-19.29.23.jpeg&f=1&nofb=1&ipt=d25ae89af5fbbe9c26d60fcf9096e8aece4505408a1229369a1ec02e0df03927&ipo=images);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: fixed;
+}
+
+h1,
+p,
+a {
+  font-family: times;
+  text-align: justify;
+}
+
+h1 {
+  color: #ccff00;
+  text-align: center;
+}
+
+p,
+a {
+  color: #ccff66;
+}
+
+.btn-one {
+  padding: 35px;
+  text-align: center;
+  background-color: #222222;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  position: fixed;
+  color: red;
+  height: auto;
+  overflow: auto;
+  z-index: 1;
+
+}
+
+.btn-two {
+  padding: 35px;
+  text-align: justify;
+  background-color: #222222;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  position: fixed;
+  color: red;
+}
+
+.container {
+  display: flex;
+}
+
+button {
+  background-color: rgba(100, 100, 100, 1);
+  box-shadow: 1px 5px 5px rgba(73, 77, 84, 1);
+  color: rgba(224, 224, 224, 1);
+  border: rgba(0, 0, 0, 1);
+  justify-content: space-around;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+button:hover {
+  background-color: rgba(20, 20, 21, 1);
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 1px 5px 5px #757575;
+}
+
+.class {
+  color: rgba(252, 49, 49, 1);
+}
